@@ -1,0 +1,135 @@
+.my-col{
+  /*border: 1px solid red;*/
+  padding: 0;
+}
+
+body{
+  /*margin: 15px 42px 15px 42px;*/
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat, Helvetica, sans-serif !important;
+}
+
+@media only screen and (max-width: 820px) {
+  body{
+    margin: 5px;
+  }
+  .h1carousel{
+    font-size: 4vw !important;
+  }
+}
+
+.quitmp{
+  background: #214001;
+  margin: none !important;
+  padding: none !important;
+}
+
+/*CONTACTO*/
+.css-container{
+  display: grid; 
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 1fr 0.1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "Contacto Contacto Contacto"
+    "FormsLabels Forms Vacio"
+    "FormsLabels Info Vacio";
+}
+
+.Info i{
+  color: #023859;
+  padding-right: 5px;
+}
+
+.Forms, .FormsLabels{
+  padding: 2em 0;
+}
+  .FormsLabels div{
+    padding: 0 5em 0 0;
+  }
+      .Forms button{
+    background: #023859;
+  }
+
+#email-text-contacto{
+  padding-right: 20px;
+}
+#numero-text-contacto{
+  padding-left: 20px;
+}
+
+.Vacio { grid-area: Vacio; }
+.FormsLabels { grid-area: FormsLabels; }
+.Forms { grid-area: Forms; }
+.Contacto { grid-area: Contacto; }
+.Info { grid-area: Info; }
+/*CONTACTO*/
+
+.nav-link{
+  color: #0388A6 !important;
+}
+
+.active{
+  text-decoration: underline;
+}
+
+.h1carousel{
+  margin-top: 30px;
+  color: #F29B30;
+  background: #023859;
+  border-radius: 25px 25px 0 0;
+  font-weight: 600;
+}
+
+.crop-imgs img{
+    width: 100%; /* width of container */
+    max-height: 700px; /* height of container */
+    object-fit: cover;
+}
+
+  .main-footer{
+    margin: 80px 0 0 0;
+    padding: 30px 50px 0 50px;
+    background: #214001;
+    color: white;
+    width: 100;
+    /*! border: 2px solid blue; */
+  }
+
+.main-footer a{
+ color: #D4D93D;
+ text-decoration: none;
+}
+
+.socials{
+  padding: 20px;
+}
+  .fa-twitter{
+    margin-right: 25px;
+  }
+  .fa-facebook, .fa-instagram, .fa-youtube{
+    margin-left: 25px;
+  }
+
+.footerorg p{
+  margin-left: 10px;
+}
+
+.second-footer{
+  margin-top: 20px;
+}
+  .second-footer p{
+    color: #0388A6;
+    margin-right: 2%;
+    line-height: none;
+  }
+
+.chatfijo{
+  z-index: 999;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 15px 42px 15px 42px;
+}

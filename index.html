@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive -->
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico"> <!-- Logo del sitio en título de la página -->
+	<!-- Bootstrap -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/style.css" type="text/css">
+	<link href="fontawesome/css/all.css" rel="stylesheet" type="text/css"> <!-- Fontawesome -->
+	<title>CostaRica's Handbook</title>
+</head>
+<body>
+	<!-- Contenedor Header (Grid) -->
+	<div class="container-fluid">
+	<!-- Header -->	
+		<div class="row my-row">
+			<div class="col my-col">
+				<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+				    <a class="navbar-brand" href="index.html"><img src="img/CRhandbook.png" class="img-fluid" aria-current="page"></a>
+				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				      <span class="navbar-toggler-icon"></span>
+				    </button>
+				    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				        <li class="nav-item dropdown">
+				          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				            Español
+				          </a>
+				          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+				            <li><a class="dropdown-item" href="#">English</a></li>
+				            <li><a class="dropdown-item" href="#">Português</a></li>
+				            <!-- <li> <hr class="dropdown-divider"></li> -->
+				            <li><a class="dropdown-item" href="#">Français</a></li>
+				          </ul>
+				        </li>
+				        <li class="nav-item">
+				        <!-- <a class="nav-link active" aria-current="page" -->
+				          <a class="nav-link" href="populars.html">Destinos populares</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" href="faq.html">Preguntas Frecuentes</a>
+				        </li>
+				        <li class="nav-item">
+				          <!-- <a class="nav-link disabled">Disabled</a> -->
+				          <a class="nav-link" href="contacto.html">Contacto</a>
+				        </li>
+				    </ul>
+				    <ul class="navbar-nav ml-auto">
+				        <li class="nav-item">
+				          <a class="nav-link" href="costarica.html">Costa Rica</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" href="about.html">Acerca de</a>
+				        </li>
+				    </ul>
+				      <form class="d-flex">
+				        <input class="form-control me-2" type="search" placeholder="Buscar destinos turísticos..." aria-label="Buscar">
+				        <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+				      </form>
+				    </div>
+				</nav>  			
+			</div>
+	</div>
+		<!-- Contenedor Body (Grid) -->
+		<div class="container-fluid">
+			<div class="row my-row">
+				<div class="col-12 my-col h1carousel text-center fs-3">
+					CENTRO TURÍSTICO DESTACADO
+				</div>
+		  		<div class="col-12 my-col">
+		  		<!-- Carrusel -->
+		  		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-indicators">
+					    	<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					    	<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					    	<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				  		</div>
+						<div class="crop-imgs">
+						  <div class="carousel-inner">
+						    <div class="carousel-item active">
+						      <img src="img/AdventurePark_Carrusel/PAP01.jpg" class="d-block img-fluid" alt="Cascada: Zona Turístico Ponderosa Adventure Park">
+						    </div>
+						    <div class="carousel-item">
+						      <img src="img/AdventurePark_Carrusel/PAP02.jpg" class="d-block img-fluid" alt="Zebras: Zona Turístico Ponderosa Adventure Park">
+						    </div>
+						    <div class="carousel-item">
+						      <img src="img/AdventurePark_Carrusel/PAP03.jpg" class="d-block img-fluid" alt="Jirafa: Zona Turístico Ponderosa Adventure Park">
+						    </div>
+						  </div>
+						  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    <span class="visually-hidden">Previous</span>
+						  </button>
+						  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    <span class="visually-hidden">Next</span>
+						  </button>
+						</div>
+					</div>
+		  		<!-- Carrusel -->
+		  		</div>
+			</div>	
+		</div>
+		<!-- Contenedor Footer (Grid) -->
+		<!--<div class="container-fluid"> -->
+			<footer class="main-footer">
+				<div class="row my-row">
+			  		<div class="col-2 my-col">
+			  			<h3>Enlaces</h3>
+			  			<a href="populars.html"><p>Destinos populares</p></a>
+			  			<a href="faq.html"><p>Preguntas frecuentes</p></a>
+			  			<a href="about.html"><p>Acerca de</p></a>
+			  		</div>
+			  		<div class="col my-col">
+			  			<h3>Costa Rica</h3>
+			  			<a href="#"><p>¿Por qué Costa Rica?</p></a>
+			  			<a href="#"><p>¿Qué visitar primero?</p></a>
+			  			<a href="#"><p>Recomendaciones del<br>Ministerio de Salud</p></a>
+			  		</div>
+				  	<div class="col-4 my-col d-flex justify-content-center align-items-end">
+				  		<a class="logofooter" href="index.html">
+							<img src="img/CRhandbook-W.png" alt="CostaRica's handbook logo blanco" class="img-fluid">
+						</a>
+				  	</div>
+				  	<div class="col my-col">
+				  		<h3>Idioma</h3>
+						<div class="dropdown">
+						  <button class="btn dropdown-toggle text-white p-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    Español(Latinoamérica)
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#">English</a>
+						    <a class="dropdown-item" href="#">Portugues</a>
+						    <a class="dropdown-item" href="#">Francais</a>
+						  </div>
+						</div>
+					</div>
+					<div class="col my-col">
+						<h3>Buscador</h3>
+				  		<!-- Barra de busqueda Footer -->
+				  		<form class="d-flex">
+				        	<input class="form-control me-2 bg-transparent" type="search" placeholder="Buscar destinos turísticos..." aria-label="Search">
+				        	<button class="btn btn-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+			      		</form>
+			      	</div>
+				</div>
+
+				<div class="row my-row">
+					<div class="col my-col">
+						<!-- Columna vacia -->
+					</div>
+				  	<div class="col-4 my-col socials d-flex justify-content-center">
+				  		<a href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+				  		<a href="#"><i class="fa-brands fa-facebook-f fa-2xl"></i></a>
+				  		<a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+				  		<a href="#"><i class="fa-brands fa-youtube fa-2xl"></i></a>
+				  	</div>
+				  	<div class="col my-col d-flex">
+				  		<a class="footerorg d-flex" href="https://www.ict.go.cr/es" target="_blank">
+							<img src="img/ICT-footer.svg" alt="Instituto Costarricense de Turismo" width="74" height="74">
+							<p class="small">Instituto<br>Costarricense<br>de Turismo,<br>Sitio Institucional</p>	
+						</a>
+
+				  		<a class="footerorg d-flex" href="https://www.esencialcostarica.com/" target="_blank">
+							<img src="img/E-footer.svg" alt="Esencial Costa Rica" width="74" height="74">
+							<p class="small">Esencial<br>Costa Rica,<br>Sitio Oficial<br>Marca país</p>
+						</a>
+				  	</div>
+				</div>
+				  
+				<div class="row my-row">
+				  	<div class="col my-col d-flex justify-content-center">
+				  		<p>&copy; 2022 Costa Rica’s handbook | <a href="#">Términos de uso</a> | <a href="#">Política de Privacidad</a> | <a href="contacto.html">Contacto</a></p>
+				  	</div>
+				</div>
+			</footer>
+			
+			<footer class="second-footer">
+				<div class="row my-row">
+					<div class="col-12 my-col d-flex justify-content-center align-items-center">
+				  		<p class="align-middle">Trabajo en conjunto</p>
+						<a href="https://www.ict.go.cr/es" target="_blank">
+							<img src="img/ICT-logo.png" alt="Instituto Costarricense de Turismo">
+						</a>
+						<a href="https://www.esencialcostarica.com/" target="_blank">
+							<img src="img/ECR-logo.png" alt="Esencial Costa Rica">
+						</a>
+					</div>
+				</div>
+			</footer>
+		<!-- </div> -->
+
+	<a href="#"><img src="img/chatenvivo-icon.png" alt="¿Necesitas más ayuda? Chat en vivo" class="chatfijo img-fluid float-end"></a>
+</body>
+</html>
