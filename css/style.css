@@ -6,7 +6,7 @@ body{
   /*margin: 15px 42px 15px 42px;*/
   margin: 0;
   padding: 0;
-  font-family: Montserrat, Helvetica, sans-serif !important;
+  font-family: 'Montserrat', Helvetica ,sans-serif !important;
 }
 
 .my-header, .my-carousel{
@@ -101,9 +101,17 @@ body{
 }
 
 .crop-imgs img{
-    width: 100%; /* width of container */
     max-height: 700px; /* height of container */
     object-fit: cover;
+}
+
+.tourism-logo-destacado img{
+  /*
+  width: 190px;
+  height: 118px;
+  */
+  width: 13vmax;
+  height: auto;
 }
 
 .footer1container{
