@@ -1,6 +1,5 @@
 .my-col{
-  border: 1px solid red;
-  padding: 0;
+  /*border: 1px solid red;*/
 }
 
 body{
@@ -10,16 +9,37 @@ body{
   font-family: Montserrat, Helvetica, sans-serif !important;
 }
 
-@media only screen and (max-width: 820px) {
-  body{
-    margin: 5px;
+.my-header, .my-carousel{
+  margin: 15px 42px 0 42px;
+}
+
+  .my-carousel{
+    padding: 0 !important;
+  }
+
+/*Responsive Tablet/celular*/
+@media only screen and (max-width: 990px) {
+  .my-header, .my-carousel{
+    margin: 5px !important;
   }
   .h1carousel{
-    font-size: 4vw !important;
+    
   }
   .chatfijo{
     visibility: hidden;
   }
+
+}
+
+/*Responsive celular*/
+@media only screen and (max-width: 430px){
+  .main-footer{
+    padding: 15px 25px 0 25px !important;
+  }
+  .h1carousel{
+    font-size: 2.2vh !important;
+  }
+  
 }
 
 /*CONTACTO*/
@@ -46,7 +66,7 @@ body{
   .FormsLabels div{
     padding: 0 5em 0 0;
   }
-      .Forms button{
+    .Forms button{
     background: #023859;
   }
 
@@ -116,16 +136,16 @@ body{
   }
 
 .footerorg p{
-  margin-left: 10px;
+  margin-left: 5px !important;
 }
 
 .second-footer{
-  margin-top: 20px;
+  padding: 0 10px 0 10px !important;
+  margin: 20px 0 20px 0;
 }
   .second-footer p{
     color: #0388A6;
-    margin-right: 2%;
-    line-height: none;
+    margin: 0 2% 0 0;
   }
 
 .chatfijo{
