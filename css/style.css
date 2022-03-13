@@ -1,4 +1,4 @@
-.my-col{
+.my-col, .my-row{
   /*border: 1px solid red;*/
 }
 
@@ -19,16 +19,17 @@ body{
 
 /*Responsive Tablet/celular*/
 @media only screen and (max-width: 990px) {
-  .my-header, .my-carousel{
-    margin: 5px !important;
-  }
-  .h1carousel{
-    
+  .my-header, .my-carousel, .aboutpage, .faqpage, .popularspage{
+    margin: 0 20px 0 20px !important;
   }
   .chatfijo{
-    visibility: hidden;
+    display: none;
   }
-
+  .aboutpage h1{font-size: 4vmax !important}
+  .aboutpage p{font-size: 1.8vmax !important; padding: 0 !important;}
+  .aboutpage i{display: none !important}
+  .h1-populars{font-size: 8vmax !important; margin-top: 30px !important; margin-bottom: 5rem !important;}
+  .populars-infoh1 h1, i{font-size: 5vmax !important; margin-bottom: 20px !important;}
 }
 
 /*Responsive celular*/
@@ -39,7 +40,11 @@ body{
   .h1carousel{
     font-size: 2.2vh !important;
   }
-  
+  .about_media h1{font-size: 4.5vmax !important}
+  .aboutpage p{font-size: 2vmax !important}
+  .h1-populars{font-size: 6vmax !important; text-align: center !important; margin-top: 30px !important; margin-bottom: 20px !important;}
+  .populars-infoh1 h1, i{font-size: 3vmax !important; text-align: center !important; margin-bottom: 20px !important;}
+  .subtitlepopulars{font-size: 2vmax !important; text-align: center !important;}
 }
 
 /*CONTACTO*/
@@ -104,6 +109,10 @@ body{
     max-height: 700px; /* height of container */
     object-fit: cover;
 }
+  .populars_squareimg{
+    max-width: 800px;
+    margin-bottom: 4rem;
+  } 
 
 .tourism-logo-destacado img{
   /*
@@ -155,6 +164,89 @@ body{
     color: #0388A6;
     margin: 0 2% 0 0;
   }
+
+.popularspage{
+  margin-bottom: 5rem;
+}
+
+.popularspage iframe{
+  max-width: 100%;
+  max-height: 720px;
+}
+
+.aboutpage, .faqpage, .popularspage{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.h1spages_svg{
+  width: 45vmax;
+}
+
+.about_media, .about_destacados{
+  margin-top: 3rem;
+}
+
+.aboutpage img{
+  width: 50%;
+  height: auto;
+}
+  .about_destacados img{
+    width: 70%;
+  }
+  .aboutpage h1{
+    font-size: 3.5vw;
+    color: #467302;
+  }
+    .about_media p, .about_destacados p{
+      color: #023859;
+      font-size: 1.5vw;
+    }
+      .about_media p{
+        padding-left: 30px;
+      }
+        .about_media i{
+          color: #023859;
+          font-size: 8rem;
+        }
+
+.about_destacados button{
+  background: #E9FAFF;
+  color: #0388A6;
+  border-radius: 100px;
+  font-size: 1rem;
+}
+
+.about-bgandtext{
+  color: #023859;
+  width: 100%;
+}
+
+.subtitle-aboutimgs{
+  color: #467302;
+}
+
+.h1-populars{
+  line-height: 1em;
+  font-weight: bolder;
+  font-size: 6vw;
+  color: #467302;
+  margin-bottom: 5rem;
+}
+
+  .populars-infoh1 h1{
+    line-height: 1em;
+    font-weight: regular;
+    font-size: 3vw;
+    color: #023859;
+    margin-bottom: 1rem;
+  }
+    .populars-infoh1 i{
+      font-size: 2.5vw;
+      color: #023859;
+      padding-left: 1rem;
+      margin-bottom: 1rem;
+    }
 
 .chatfijo{
   z-index: 999;

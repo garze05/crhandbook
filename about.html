@@ -8,9 +8,9 @@
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 	<!-- Bootstrap -->
-	<link rel="stylesheet" type="text/css" href="css/style.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="fontawesome/css/all.css" rel="stylesheet" type="text/css"> <!-- Fontawesome -->
-	
+
 	<!-- Fuente Montserrat -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,7 @@
 		<div class="my-header">
 			<div class="col my-col">
 				<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-				    <a class="navbar-brand" href="index.html"><img src="img/CRhandbook.png" class="img-fluid" aria-current="page"></a>
+				   <a class="navbar-brand" href="index.html"><img src="img/CRhandbook.svg" width="200" class="img-fluid" alt="Costa Rica’s Handbook logo"></a>
 				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				      <span class="navbar-toggler-icon"></span>
 				    </button>
@@ -56,7 +56,7 @@
 				          <a class="nav-link" href="costarica.html">Costa Rica</a>
 				        </li>
 				        <li class="nav-item">
-				          <a class="nav-link" href="about.html">Acerca de</a>
+				          <a class="nav-link active" aria-current="page" href="about.html">Acerca de</a>
 				        </li>
 				    </ul>
 				      <form class="d-flex">
@@ -67,28 +67,80 @@
 				</nav>  			
 			</div>
 		</div>
+
+	<div class="aboutpage">
+		<div class="row my-row about_media">
+			<div class="col-xs-1 col-md-6 col-lg-6 col-xl-6 my-col">
+				<h1 class="fw-bolder text-center text-md-start">ACCESIBILIDAD TURÍSTICA FÁCIL</h1>
+				<div class="d-flex">
+					<i class="fa-solid fa-magnifying-glass"></i>
+					<div class="flex-column">
+					<p>Busqueda optimizada para ofrecer una lista rápida de las mejores atracciones turísticas del país</p>
+					<p>La busqueda puede ser filtrada por <span class="fw-bold">precio, zona, servicios, entre otros...</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-1 col-md-6 col-lg-6 col-xl-6 my-col text-center">
+				<img src="img/ABOUT_IMGS/facil_busquedaAbout.png">
+				<div class="d-flex align-items-center justify-content-center w-100 mt-3">
+					<span class="small fw-light fst-italic subtitle-aboutimgs">PONDEROSA ADVENTURE PARK, <span class="fw-bold">LIBERIA, GUANACASTE</span></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="row my-row about_destacados">
+				<div class="col-xs-1 col-md-6 my-col order-sm-1">
+					<h1 class="fw-bolder text-center text-md-end">CENTRO TURÍSTICO DESTACADO</h1>
+					<div class="d-flex">
+						<div class="flex-column">
+						<p class="text-start text-md-end">El espacio del centro turístico destacado es seleccionado de manera automática, basándose en la calificación promedio de los usuarios y las visitas regulares del sitio.</p>
+						<a href="populars.html"> <button class="text-center btn btn-primary w-100 mb-3">VER ACTUAL CENTRO TURÍSTICO DESTACADO</button></a>
+						</div>
+					</div>
+				</div>
+
+			<div class="col-xs-1 col-md-6 my-col text-center order-sm-12">
+				<img src="img/ABOUT_IMGS/centro_turisticoAbout.png">
+					<div class="d-flex align-items-center justify-content-center w-100 mt-3">
+						<span class="small fw-light fst-italic subtitle-aboutimgs">MONTEVERDE, <span class="fw-bold">CANTÓN DE PUNTARENAS, PUNTARENAS</span></span>
+					</div>
+			</div>
+		</div>
+
+		<div class="row my-row about_destacados">
+			<div class="col my-col text-center">
+				<h1 class="fw-bolder text-center text-md-center">DESTINOS POPULARES</h1>
+				<img src="img/ABOUT_IMGS/populars_About.png">
+				<div class="d-flex align-items-center justify-content-center w-100 mt-3">
+					<span class="small fw-bold text-center about-bgandtext">DISFRUTE DE UN GRAN DIRECTORIO DE LOS MEJORES LUGARES TURÍSTICOS A NIVEL NACIONAL</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<!-- Contenedor Footer (Grid) -->
 	<div class="footer1container">
 		<div class="container-fluid">
 			<footer class="main-footer">
 				<div class="row my-row gx-2 gy-2">
-				  	<div class="col-sm-1 col-md-6 col-lg-2 my-col">
+				  	<div class="col-xs-1 col-md-6 col-lg-2 my-col">
 				  		<h3>Enlaces</h3>
+				  		<a href="index.html"><p>Inicio</p></a>
 				  		<a href="populars.html"><p>Destinos populares</p></a>
 				  		<a href="faq.html"><p>Preguntas frecuentes</p></a>
 				  		<a href="about.html"><p>Acerca de</p></a>
 				  	</div>
 
-				  	<div class="col-sm-1 col-md-6 col-lg-2 my-col">
+				  	<div class="col-xs-1 col-md-6 col-lg-2 my-col">
 				  		<h3>Costa Rica</h3>
 				  		<a href="#"><p>¿Por qué Costa Rica?</p></a>
 				  		<a href="#"><p>¿Qué visitar primero?</p></a>
 				  		<a href="#"><p>Recomendaciones del<br>Ministerio de Salud</p></a>
 				  	</div>
-				  	<div class="col-sm-0 col-md-0 col-xl-4 col-lg-2 my-col">
+				  	<div class="col-xs-0 col-md-0 col-xl-4 col-lg-2 my-col">
 					</div>
 				  	<!-- col-md-6 offset-md-6 -->
-					<div class="col-sm-1 col-md-6 col-lg-3 col-xl-2 my-col">
+					<div class="col-xs-1 col-md-6 col-lg-3 col-xl-2 my-col">
 					  		<h3>Idioma</h3>
 							<div class="dropdown">
 							  <button class="btn dropdown-toggle text-white p-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -102,7 +154,7 @@
 							</div>
 					</div>
 
-					<div class="col-sm-1 col-md-6 col-lg-3 col-xl-2 my-col">
+					<div class="col-xs-1 col-md-6 col-lg-3 col-xl-2 my-col">
 						<h3>Buscador</h3>
 						  <!-- Barra de busqueda Footer -->
 						  <form class="d-flex">
@@ -114,25 +166,25 @@
 
 					<div class="row my-row justify-content-end">
 
-					<div class="flex-column col-lg-4 col-sm-2 col-md-12 my-col d-flex justify-content-end align-items-center pt-3">
+					<div class="flex-column col-lg-4 col-xs-2 col-md-12 my-col d-flex justify-content-end align-items-center pt-3">
 						<a class="logofooter" href="index.html">
 							<img src="img/CRhandbook-W.png" alt="CostaRica's handbook logo blanco" class="img-fluid">
 						</a>
 
-						<div class="col-lg-6 col-sm-2 col-md-6 my-col socials d-flex justify-content-center">
+						<div class="col-lg-6 col-xs-2 col-md-6 my-col socials d-flex justify-content-center">
 					  		<a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter fa-2xl"></i></a>
 					  		<a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f fa-2xl"></i></a>
 					  		<a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a>
 					  		<a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube fa-2xl"></i></a>
 					  	</div>
 					</div>
-					  	<div class="col-sm-1 col-md-6 col-lg-2 my-col pt-3">
+					  	<div class="col-xs-1 col-md-6 col-lg-2 my-col pt-3">
 					  		<a class="footerorg d-flex" href="https://www.ict.go.cr/es" target="_blank">
 								<img src="img/ICT-footer.svg" alt="Instituto Costarricense de Turismo" width="74" height="74">
 								<p class="small">Instituto<br>Costarricense<br>de Turismo,<br>Sitio Institucional</p>	
 							</a>
 						</div>
-						<div class="col-sm-1 col-md-6 col-lg-2 my-col pt-3">
+						<div class="col-xs-1 col-md-6 col-lg-2 my-col pt-3">
 					  		<a class="footerorg d-flex" href="https://www.esencialcostarica.com/" target="_blank">
 								<img src="img/E-footer.svg" alt="Esencial Costa Rica" width="74" height="74">
 								<p class="small">Esencial<br>Costa Rica,<br>Sitio Oficial<br>Marca país</p>
